@@ -14,7 +14,7 @@ length_dict.json stores the information of how many words there is in a corpus
 main.py is the main file that creates corpus, creates the index, executes page ranking and tests some queries 
 pageranking.py handles ranking the top results of a query by using TF-IDF
 
-bookkeeping.json maintains the list of all URLs that have been crawled
+bookkeeping.json maintains the list of all URLs that have been crawled. The key value is the relative file path of the HTML content, and the value is the web URL of the HTML content
 
 search.ui is the UI created to ask user for a query and display results
 
